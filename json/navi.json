@@ -1,0 +1,131 @@
+[
+    {"title":"HOME", "link":"#", "icon": "fa fa-angle-down", "depth":[
+        {"title":"Home Onepage",  "link":"#", "icon":"fa fa-angle-down", "depth2":[
+            {"title": "Home main onepage","link":"#"},
+            {"title": "Home text silder onepage", "link":"#"},
+            {"title": "Home youtube onepage", "link":"#"},
+            {"title": "Home slider onepage", "link":"#"}
+        ]},
+        {"title":"Home Multipage",  "link":"#","icon":"fa fa-angle-down", "depth2":[
+            {"title": "Home main", "link":"#"},
+            {"title": "Home silder", "link":"#"},
+            {"title": "Home youtube", "link":"#"},
+            {"title": "Home text slider", "link":"#"},
+            {"title": "Home light bg", "link":"#"},
+            {"title": "Home youtube 2", "link":"#"},
+            {"title": "Home dark", "link":"#"}
+        ]}
+    ]},
+    {"title":"PAGES", "link":"#", "icon": "fa fa-angle-down", "depth":[
+        {"title":"Team1",  "link":"#"},
+        {"title":"Team2",  "link":"#"},
+        {"title":"Pricing",  "link":"#"},
+        {"title":"Branding",  "link":"#"},
+        {"title":"Web Design",  "link":"#"},
+        {"title":"Contact",  "link":"#"}
+    ]},
+    {"title":"PORTFOLIO", "link":"#", "icon": "fa fa-angle-down", "depth":[
+        {"title":"Portfolio Filter Animation",  "link":"#", "icon":"fa fa-angle-down", "depth2":[
+            {"title": "Fadeout","link":"#"},
+            {"title": "Quicksand","link":"#"},
+            {"title": "Bounce Left","link":"#"},
+            {"title": "Bounce Top","link":"#"},
+            {"title": "Bounce Bottom","link":"#"},
+            {"title": "Move Left","link":"#"},
+            {"title": "Slide Left","link":"#"},
+            {"title": "Fade Out Top","link":"#"},
+            {"title": "Sequentially","link":"#"},
+            {"title": "Skew","link":"#"},
+            {"title": "Slide Delay","link":"#"},
+            {"title": "Rotate Sides","link":"#"},
+            {"title": "Flip Out Delay","link":"#"},
+            {"title": "Flip Out","link":"#"},
+            {"title": "Unfold","link":"#"},
+            {"title": "Fold Left","link":"#"},
+            {"title": "Scale Down","link":"#"},
+            {"title": "Front Row","link":"#"}
+        ]},
+        {"title":"Portpolio Caption Animation",  "link":"#","icon":"fa fa-angle-down", "depth2":[
+            {"title": "Push Top", "link":"#"},
+            {"title": "Push Down", "link":"#"},
+            {"title": "Move Right", "link":"#"},
+            {"title": "Overlay Bottom", "link":"#"},
+            {"title": "Overlay Bottom Along", "link":"#"},
+            {"title": "Overlay Right Along", "link":"#"},
+            {"title": "Overlay Bottom Reveal", "link":"#"},
+            {"title": "Minimal", "link":"#"},
+            {"title": "Zoom", "link":"#"}
+        ]},
+        {"title":"Portpolio Layout mode",  "link":"#","icon":"fa fa-angle-down", "depth2":[
+            {"title": "Slider without Navigation", "link":"#"},
+            {"title": "Slider with Navigation", "link":"#"},
+            {"title": "Grid Custom Size", "link":"#"},
+            {"title": "Mosaic", "link":"#"},
+            {"title": "Mosaic Boxed", "link":"#"},
+            {"title": "Grid Boxed 2 Column", "link":"#"},
+            {"title": "Grid Boxed 3 Column", "link":"#"},
+            {"title": "Grid Boxed 4 Column", "link":"#"},
+            {"title": "Grid Fullwidth 2 Column", "link":"#"},
+            {"title": "Grid Fullwidth 3 Column", "link":"#"},
+            {"title": "Grid Fullwidth 4 Column", "link":"#"}
+        ]}
+    ]},
+    {"title":"SHOP", "link":"#", "icon": "fa fa-angle-down", "depth":[
+        {"title":"Shop Page",  "link":"#"},
+        {"title":"Shop Single",  "link":"#"},
+        {"title":"Cart",  "link":"#"},
+        {"title":"Checkout",  "link":"#"},
+        {"title":"My account",  "link":"#"}
+    ]},
+    {"title":"BLOG", "link":"#", "icon": "fa fa-angle-down", "depth":[
+        {"title":"Boxed with Filter",  "link":"#", "icon":"fa fa-angle-down", "depth2":[
+            {"title": "Blog 1 Column","link":"#"},
+            {"title": "Blog 2 Column","link":"#"},
+            {"title": "Blog 3 Column","link":"#"}
+        ]},
+        {"title":"Fullwidth with Filter",  "link":"#","icon":"fa fa-angle-down", "depth2":[
+            {"title": "Fullwidth 2 Column", "link":"#"},
+            {"title": "Fullwidth 3 Column", "link":"#"},
+            {"title": "Fullwidth 4 Column", "link":"#"},
+            {"title": "Fullwidth 5 Column", "link":"#"}
+        ]},
+        {"title":"Boxed No Filter",  "link":"#","icon":"fa fa-angle-down", "depth2":[
+            {"title": "Boxed 2 Column", "link":"#"},
+            {"title": "Boxed 3 Column", "link":"#"}
+        ]},
+        {"title":"Fullwidth No Filter",  "link":"#","icon":"fa fa-angle-down", "depth2":[
+            {"title": "Fullwidth 2 Column", "link":"#"},
+            {"title": "Fullwidth 3 Column", "link":"#"},
+            {"title": "Fullwidth 4 Column", "link":"#"},
+            {"title": "Fullwidth 5 Column", "link":"#"}
+        ]},
+        {"title":"Boxed Silder",  "link":"#","icon":"fa fa-angle-down", "depth2":[
+            {"title": "Silder 2 Column", "link":"#"},
+            {"title": "Silder 3 Column", "link":"#"}
+        ]},
+        {"title":"Fullwidth Silder",  "link":"#","icon":"fa fa-angle-down", "depth2":[
+            {"title": "Silder 2 Column", "link":"#"},
+            {"title": "Silder 3 Column", "link":"#"},
+            {"title": "Silder 4 Column", "link":"#"},
+            {"title": "Silder 5 Column", "link":"#"}
+        ]},
+        {"title":"Boxed with Hero",  "link":"#","icon":"fa fa-angle-down", "depth2":[
+            {"title": "Boxed 2 Column", "link":"#"},
+            {"title": "Boxed 3 Column", "link":"#"}
+        ]},
+        {"title":"Fullwidth with Hero",  "link":"#","icon":"fa fa-angle-down", "depth2":[
+            {"title": "Fullwidth 2 Column", "link":"#"},
+            {"title": "Fullwidth 3 Column", "link":"#"},
+            {"title": "Fullwidth 4 Column", "link":"#"},
+            {"title": "Fullwidth 5 Column", "link":"#"}
+        ]},
+        {"title":"Fullwidth Silder with Hero",  "link":"#","icon":"fa fa-angle-down", "depth2":[
+            {"title": "Silder 2 Column", "link":"#"},
+            {"title": "Silder 3 Column", "link":"#"},
+            {"title": "Silder 4 Column", "link":"#"},
+            {"title": "Silder 5 Column", "link":"#"}
+        ]},
+        {"title":"Blog Classic",  "link":"#"},
+        {"title":"Single Post",  "link":"#"}
+    ]}
+]
