@@ -78,11 +78,15 @@ header .sns-wrap ul li:last-child {padding-right: 0;}
 .gallery ul.menu li:hover {color: #666;}
 
 .prd-wrapper {}
-.prd-wrapper ul.prd { position: relative; }
-.prd-wrapper ul.prd> li{position: absolute; left: 0; top: 0; }
+.prd-wrapper ul.prd {position: relative; transition: all 0.5s;}
+.prd-wrapper ul.prd> li {position: absolute;}
 
-.prd-wrapper ul.prd> li >ul{perspective: 300px;  display: flex; padding: 0 1em; flex-wrap: wrap;  justify-content: space-between;}
-.prd-wrapper ul.prd> li >ul>li { transform-style: preserve-3d; transform: rotateY(90deg); transition: all 1s; transition-delay: .5s; transform-origin: left; box-sizing:border-box; margin: .5em 0; overflow: hidden; flex: 33% 0 0; width: 100%; height: 100%; }
+.prd-wrapper ul.prd> li >ul{  display: flex; padding: 0 1em; flex-wrap: wrap;  justify-content: space-between;}
+.prd-wrapper ul.prd> li >ul>li {perspective: 300px;  box-sizing:border-box; margin: .5em 0; flex: 33% 0 0; width: 100%; height: 100%; overflow: hidden;}
+.prd-wrapper ul.prd> li >ul>li> div.img-bg {transform-origin: -200px; transform-style: preserve-3d; transform: rotateY(90deg); opacity: 0; transition: all 0.75s;}
+.prd-wrapper ul.prd> li.active >ul>li> div.img-bg {transform: rotateY(0); opacity: 1;}
+.prd-wrapper ul.prd> li >ul>li> div.img-bg > div {transition: all 0.5s;}
+.prd-wrapper ul.prd> li >ul>li> div.img-bg:hover > div {transform: translateY(100%);}
 .prd-wrapper ul.prd> li >ul>li.active {transform: rotateY(0);}
 .prd-wrapper ul.prd> li >ul>li>.img-bg { position: relative; cursor: pointer; width: 100%; height: 100%; }
 .prd-wrapper ul.prd> li >ul>li>.img-bg .img-wrap { width: 100%; height: 100%;}
