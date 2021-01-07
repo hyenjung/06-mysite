@@ -66,33 +66,32 @@ header .sns-wrap ul li:last-child {padding-right: 0;}
 .services .wrapper .bt-white {transition: all .7s; border: 1px solid #ccc; background: transparent;  color: #666;}
 .services .wrapper .bt-white:hover {background-color: #111; color: #f1f1f1;}
 
-.gallery {text-align: center; padding: 13em 0;}
+.gallery {text-align: center; padding: 10em 0; }
 .gallery p.title {letter-spacing: 3px;}
 .gallery h1.title {}
 
-.gallery ul.menu {font-family: 'Montserrat', sans-serif; padding: 7em 0 1.5em 0; display: flex; text-align: center; justify-content: center;}
+.gallery ul.menu {width: 100%; height: 100%; font-family: 'Montserrat', sans-serif; padding: 7em 0 1.5em 0; display: flex; text-align: center; justify-content: center;}
 .gallery ul.menu li  {font-size: .9em; position: relative; padding: 0 1.5em; font-weight: 600; letter-spacing: 1px;}
 .gallery ul.menu li .popper { transition: all .5s; opacity: 0;  position: absolute; left: 50%; transform: translateX(-50%); bottom: 0; padding: .7em 1.2em; background-color: #d2deb4; color: #f1f1f1; border-radius: 10%;}
 .gallery ul.menu li .popper::after { display: block; content: ""; width: 6px; height: 6px; transform: rotate(45deg) translateX(-50%); position: absolute; left: 50%; bottom: -5px; background-color: #d2deb4;}
 .gallery ul.menu li:hover .popper { opacity: 1; bottom: 30px;}
 .gallery ul.menu li:hover {color: #666;}
-.pager-wrap {}
-.pager-wrap .swiper-pagination-bullet {  padding: .5em; margin: 0 3em 1em 3em; }
-.pager-wrap .swiper-pagination-bullet-active {background-color: #888;}
-.prd {}
-.prd ul.prd { width: 100%; height: 100%;}
-.prd ul.prd> li{ width: 100%; height: 100%; }
-.prd ul.prd> li.active {display: block;}
-.prd ul.prd> li >ul{ display: flex; padding: 0 1em; width: 100%; flex-wrap: wrap;  justify-content: space-between;}
-.prd ul.prd> li >ul>li { box-sizing:border-box; margin: .5em 0; overflow: hidden; flex: 33% 0 0; }
-.prd ul.prd> li >ul>li>.img-bg { position: relative; cursor: pointer; width: 100%; height: 100%; }
-.prd ul.prd> li >ul>li>.img-bg .img-wrap { width: 100%; height: 100%;}
-.prd ul.prd> li >ul>li>.img-bg .prd-bg { position: absolute; top: -100%; padding-top: 15em; width: 100%; height: 100%; color: #e9e9e9; text-align: center; background-color: #282727; }
 
-.prd ul.prd> li:first-child .prd-bg i {transform: rotate(90deg);}
-.prd ul.prd> li>ul>li .prd-bg h3.title {margin: .5em 0 .25em 0;}
+.prd-wrapper {}
+.prd-wrapper ul.prd { position: relative; }
+.prd-wrapper ul.prd> li{position: absolute; left: 0; top: 0; }
 
-.we-wrapper {background-color: #f2f4ec;}
+.prd-wrapper ul.prd> li >ul{perspective: 300px;  display: flex; padding: 0 1em; flex-wrap: wrap;  justify-content: space-between;}
+.prd-wrapper ul.prd> li >ul>li { transform-style: preserve-3d; transform: rotateY(90deg); transition: all 1s; transition-delay: .5s; transform-origin: left; box-sizing:border-box; margin: .5em 0; overflow: hidden; flex: 33% 0 0; width: 100%; height: 100%; }
+.prd-wrapper ul.prd> li >ul>li.active {transform: rotateY(0);}
+.prd-wrapper ul.prd> li >ul>li>.img-bg { position: relative; cursor: pointer; width: 100%; height: 100%; }
+.prd-wrapper ul.prd> li >ul>li>.img-bg .img-wrap { width: 100%; height: 100%;}
+.prd-wrapper ul.prd> li >ul>li>.img-bg .prd-bg { position: absolute; top: -100%; padding-top: 15em; width: 100%; height: 100%; color: #e9e9e9; text-align: center; background-color: #282727; }
+
+.prd-wrapper ul.prd> li:first-child .prd-bg i {transform: rotate(90deg);}
+.prd-wrapper ul.prd> li>ul>li .prd-bg h3.title {margin: .5em 0 .25em 0;}
+
+.we-wrapper { background-color: #f2f4ec;}
 .we-wrapper .we-wrap{ padding: 9em 0 7em 0; display: flex; justify-content: space-between;}
 .we-wrapper .we-wrap .weare {flex: 33% 0 0; display: flex; justify-content: space-between; align-items: flex-start;}
 .we-wrapper .we-wrap .weare .icon-wrap  {}
@@ -101,7 +100,7 @@ header .sns-wrap ul li:last-child {padding-right: 0;}
 .we-wrapper .we-wrap .weare .txt-wrap p.bot {color: #666; line-height: 1.5;}
 
 
-.team-wrapper {text-align: center;}
+.team-wrapper {text-align: center; padding: 12em 0;}
 .team-wrapper p.title {letter-spacing: 3px; }
 .team-wrapper h1.title {margin-bottom: 1.5em;}
 .team-wrapper ul.team {display: flex; justify-content: space-between;}

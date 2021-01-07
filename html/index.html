@@ -139,24 +139,23 @@
 			<p class="title">OUR PORTFOLIO</p>
 			<h1 class="title">Gallery</h1>
 			<ul class="menu">
-				<li><a href="#">ALL</a>
+				<li onclick="$('ul.prd>li.all>ul>li').addClass('active');">ALL
 					<div class="popper">6</div>
 				</li>
-				<li><a href="#">BRANDING</a>
+				<li onclick="$('ul.prd>li.branding>ul>li').addClass('active');">BRANDING
 					<div class="popper">3</div>
 				</li>
-				<li><a href="#">DIGITAL</a>
+				<li onclick="$('ul.prd>li.digital>ul>li').addClass('active');">DIGITAL
 					<div class="popper">1</div>
 				</li>
-				<li><a href="#">PRINT</a>
+				<li onclick="$('ul.prd>li.print>ul>li').addClass('active');">PRINT
 					<div class="popper">3</div>
 				</li>
 			</ul>
-			<div class="pager-wrap"></div>
 		</div>
-		<div class="prd swiper-container">
-			<ul class="prd swiper-wrapper">
-				<li class="all swiper-slide">
+		<div class="prd-wrapper">
+			<ul class="prd">
+				<li class="all">
 					<ul>
 						<li>
 							<div class="img-bg">
@@ -232,7 +231,7 @@
 						</li>
 					</ul>
 				</li>
-				<li class="branding swiper-slide">
+				<li class="branding">
 					<ul>
 						<li>
 							<div class="img-bg">
@@ -272,7 +271,7 @@
 						</li>
 					</ul>
 				</li>
-				<li class="digital swiper-slide">
+				<li class="digital">
 					<ul>
 						<li>
 							<div class="img-bg">
@@ -288,7 +287,7 @@
 						</li>
 					</ul>
 				</li>
-				<li class="print swiper-slide">
+				<li class="print">
 					<ul>
 						<li>
 							<div class="img-bg">
@@ -330,7 +329,8 @@
 				</li>
 			</ul>
 		</div>
-		<div class="we-wrapper">
+	</div>
+	<div class="we-wrapper">
 			<div class="we-wrap wrapper">
 				<div class="creative weare">
 					<div class="icon-wrap">
@@ -363,8 +363,8 @@
 					</div>
 				</div>
 			</div>
-		</div>
 	</div>
+	
 	<div class="team-wrapper wrapper swiper-container">
 		<p class="title">THE CREW</p>
 		<h1 class="title">Team</h1>
