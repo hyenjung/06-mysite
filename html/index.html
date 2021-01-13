@@ -8,53 +8,29 @@
 	<link rel="stylesheet" href="../css/all.min.css">
 	<link rel="stylesheet" href="../css/reset.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="../css/animate.min.css">
+	<link rel="stylesheet" href="../css/animate3.min.css">
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
 	<link rel="stylesheet" href="../css/swiper-bundle.min.css">
 	<link rel="stylesheet" href="../css/index.css">
 	<script src="../js/jquery-3.5.1.min.js"></script>
 	<script src="../js/swiper-bundle.min.js"></script>
 	<script src="../js/imagesloaded.pkgd.min.js"></script>
+	<script src="../js/wow.min.js"></script>
 </head>
 
 <body>
-	<div class="main-wrapper">
-		<div class="bg-wrap">
-
-		</div>
-		<header class="header-wrapper">
+	<header>
+		<div class="header-wrapper">
 			<nav class="navi-wrapper">
 				<ul class="navi">
-					<!-- <li><a href="#">HOME<i class="fa fa-angle-down"></i></a>
-						<ul class="sub">
-							<li><a href="#">Home Onepage<i class="fa fa-angle-down"></i></a>
-								<ul class="sub2">
-									<li><a href="#">Home main onepage</a></li>
-									<li><a href="#">Home text silder onepage</a></li>
-									<li><a href="#">Home youtube onepage</a></li>
-									<li><a href="#">Home slider onepage</a></li>
-								</ul>
-							</li>
-							<li><a href="#">Home Multipage<i class="fa fa-angle-down"></i></a>
-								<ul class="sub2">
-									<li><a href="#">Home main</a></li>
-									<li><a href="#">Home silder</a></li>
-									<li><a href="#">Home youtube</a></li>
-									<li><a href="#">Home text slider</a></li>
-									<li><a href="#">Home light bg</a></li>
-									<li><a href="#">Home youtube 2</a></li>
-									<li><a href="#">Home dark</a></li>
-								</ul>
-							</li>
-						</ul>
-					</li>
-					<li><a href="#">PAGES<i class="fa fa-angle-down"></i></a></li>
-					<li><a href="#">PORTFOLIO<i class="fa fa-angle-down"></i></a></li>
-					<li><a href="#">SHOP<i class="fa fa-angle-down"></i></a></li>
-					<li><a href="#">BLOG<i class="fa fa-angle-down"></i></a></li> -->
+
 				</ul>
 			</nav>
-			<div class="logo-wrap">
+			<div class="logo-wrap white">
 				<a href="#"><img src="../img/logo (1).png" alt=""></a>
+			</div>
+			<div class="logo-wrap active">
+				<a href="#"><img src="../img/logo-dark.png" alt=""></a>
 			</div>
 			<div class="sns-wrap">
 				<ul class="sns">
@@ -76,7 +52,31 @@
 					</li>
 				</ul>
 			</div>
-		</header>
+		</div>
+		<div class="header-wrapper-mob">
+			<div class="header-top">
+				<div class="logo-wrap-mob">
+					<a href="#"><img src="../img/logo-dark.png" alt=""></a>
+				</div>
+				<ul class="bars ">
+					<li class="bar1"></li>
+					<li class="bar2"></li>
+					<li class="bar3"></li>
+				</ul>
+			</div>
+			<nav class="navi-wrapper">
+				<ul class="navi active">
+
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<div class="scroll-top">
+		<i class="fa fa-angle-up" aria-hidden="true"></i>
+	</div>
+	<div class="main-wrapper">
+		<div class="bg-wrap">
+		</div>
 		<div class="main-txt wrapper">
 			<p class="title">GREETINGS, WE ARE</p>
 			<h1 class="main-title">FORESTER</h1>
@@ -86,18 +86,18 @@
 		</div>
 	</div>
 	<div class="story wrapper">
-		<p class="title">OUR STORY</p>
-		<h2 class="title">Unordinary digital agency crafting sophisticated and eccentric stuff that will leave you
-			speechless, we had opportunity to work on wide variety of projects for different clients around the
+		<p class="title wow bounceInDown">OUR STORY</p>
+		<h2 class="title ">Unordinary digital agency crafting sophisticated and eccentric stuff that will leave <br> you
+			speechless, we had opportunity to work on wide variety of projects for different <br> clients around the
 			world, we're responsible and our client is our priority</h2>
 		<p class="more">Interested in our story and want to meet us even better? <a href="#">Read More</a></p>
 	</div>
-	<div class="services ">
+	<div class="services">
 		<div class="wrapper">
 			<p class="title">OUR EXPERTISE</p>
 			<h1 class="title">Services</h1>
 			<div class="services-wrap">
-				<div class="web-design service">
+				<div class="web-design service wow bounceInLeft">
 					<div class="img-wrap bg-wrap">
 						<i class="fa fa-wpforms" aria-hidden="true" style=" color:#ffffff !important;"></i>
 					</div>
@@ -107,7 +107,7 @@
 						<p class="title">READ MORE</p>
 					</div>
 				</div>
-				<div class="web-design service">
+				<div class="web-design service wow bounceInRight">
 					<div class="img-wrap bg-wrap">
 						<i class="fa fa-wpforms" aria-hidden="true" style=" color:#ffffff !important;"></i>
 					</div>
@@ -117,7 +117,7 @@
 						<p class="title">READ MORE</p>
 					</div>
 				</div>
-				<div class="Marketing service">
+				<div class="Marketing service wow bounceInLeft">
 					<div class="img-wrap bg-wrap">
 						<i class="fa fa-tasks" aria-hidden="true" style=" color:#ffffff !important;"></i>
 					</div>
@@ -139,21 +139,21 @@
 			<p class="title">OUR PORTFOLIO</p>
 			<h1 class="title">Gallery</h1>
 			<ul class="menu">
-				<li>ALL
+				<li class="all">ALL
 					<div class="popper">6</div>
 				</li>
-				<li>BRANDING
+				<li class="branding">BRANDING
 					<div class="popper">3</div>
 				</li>
-				<li>DIGITAL
+				<li class="digital">DIGITAL
 					<div class="popper">1</div>
 				</li>
-				<li>PRINT
+				<li class="print">PRINT
 					<div class="popper">3</div>
 				</li>
 			</ul>
 		</div>
-		<div class="prd-wrapper">
+		<!-- <div class="prd-wrapper">
 			<ul class="prd">
 				<li class="all">
 					<ul>
@@ -330,43 +330,203 @@
 					</ul>
 				</li>
 			</ul>
+		</div> -->
+		<div class="prd-wrapper">
+			<div class="prd">
+				<ul class="prd-wrap">
+					<li>
+						<div class="trans-wrap">
+							<div class="img-bg">
+								<div class="img-wrap">
+									<img src="../img/prd1.jpg" alt="" class="w-100">
+								</div>
+								<div class="prd-bg">
+									<i class="fa fa-link" aria-hidden="true"></i>
+									<h3 class="title">Print</h3>
+									<p class="title">PROJECT SIX</p>
+								</div>
+							</div>
+							<div class="img-bg">
+								<div class="img-wrap">
+									<img src="../img/prd3.jpg" alt="" class="w-100">
+								</div>
+								<div class="prd-bg">
+									<i class="fa fa-picture-o" aria-hidden="true"></i>
+									<h3 class="title">Branding</h3>
+									<p class="title">PROJECT ONE</p>
+								</div>
+							</div>
+							<div class="img-bg">
+								<div class="img-wrap">
+									<img src="../img/prd2.jpg" alt="" class="w-100">
+								</div>
+								<div class="prd-bg">
+									<i class="fa fa-arrows-alt" aria-hidden="true"></i>
+									<h3 class="title">Digital</h3>
+									<p class="title">PROJECT FIVE</p>
+								</div>
+							</div>
+							<div class="img-bg">
+								<div class="img-wrap">
+									<img src="../img/prd1.jpg" alt="" class="w-100">
+								</div>
+								<div class="prd-bg">
+									<i class="fa fa-link" aria-hidden="true"></i>
+									<h3 class="title">Print</h3>
+									<p class="title">PROJECT SIX</p>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="trans-wrap">
+								<div class="img-bg">
+									<div class="img-wrap">
+										<img src="../img/prd2.jpg" alt="" class="w-100">
+									</div>
+									<div class="prd-bg">
+										<i class="fa fa-arrows-alt" aria-hidden="true"></i>
+										<h3 class="title">Digital</h3>
+										<p class="title">PROJECT FIVE</p>
+									</div>
+								</div>
+								<div class="img-bg">
+									<div class="img-wrap">
+										<img src="../img/prd4.jpg" alt="" class="w-100">
+									</div>
+									<div class="prd-bg">
+										<i class="fa fa-arrows-alt" aria-hidden="true"></i>
+										<h3 class="title">Branding-Print</h3>
+										<p class="title">PROJECT TWO</p>
+									</div>
+								</div>
+								<div class="img-bg">
+									<div class="img-wrap">
+										<img src="../img/prd4.jpg" alt="" class="w-100">
+									</div>
+									<div class="prd-bg">
+										<i class="fa fa-arrows-alt" aria-hidden="true"></i>
+										<h3 class="title">Branding-Print</h3>
+										<p class="title">PROJECT TWO</p>
+									</div>
+								</div>
+							</div>
+					</li>
+					<li>
+						<div class="trans-wrap">
+								<div class="img-bg">
+									<div class="img-wrap">
+										<img src="../img/prd3.jpg" alt="" class="w-100">
+									</div>
+									<div class="prd-bg">
+										<i class="fa fa-picture-o" aria-hidden="true"></i>
+										<h3 class="title">Branding</h3>
+										<p class="title">PROJECT ONE</p>
+									</div>
+								</div>
+								<div class="img-bg">
+									<div class="img-wrap">
+										<img src="../img/prd6.jpg" alt="" class="w-100">
+									</div>
+									<div class="prd-bg">
+										<i class="fa fa-video-camera" aria-hidden="true"></i>
+										<h3 class="title">Branding</h3>
+										<p class="title">WATCH ON VIDEO</p>
+									</div>
+								</div>
+								<div class="img-bg">
+									<div class="img-wrap">
+										<img src="../img/prd5.jpg" alt="" class="w-100">
+									</div>
+									<div class="prd-bg">
+										<i class="fa fa-video-camera" aria-hidden="true"></i>
+										<h3 class="title">Print</h3>
+										<p class="title">WATCH ON YOUTUBE</p>
+									</div>
+								</div>
+						</div>
+					</li>
+					<li>
+						<div class="trans-wrap">
+								<div class="img-bg">
+									<div class="img-wrap">
+										<img src="../img/prd4.jpg" alt="" class="w-100">
+									</div>
+									<div class="prd-bg">
+										<i class="fa fa-arrows-alt" aria-hidden="true"></i>
+										<h3 class="title">Branding-Print</h3>
+										<p class="title">PROJECT TWO</p>
+									</div>
+								</div>
+						</div>
+					</li>
+					<li>
+						<div class="trans-wrap">
+								<div class="img-bg">
+									<div class="img-wrap">
+										<img src="../img/prd5.jpg" alt="" class="w-100">
+									</div>
+									<div class="prd-bg">
+										<i class="fa fa-video-camera" aria-hidden="true"></i>
+										<h3 class="title">Print</h3>
+										<p class="title">WATCH ON YOUTUBE</p>
+									</div>
+								</div>
+						</div>
+					</li>
+					<li>
+						<div class="trans-wrap">
+							<div class="img-bg">
+								<div class="img-wrap">
+									<img src="../img/prd6.jpg" alt="" class="w-100">
+								</div>
+								<div class="prd-bg">
+									<i class="fa fa-video-camera" aria-hidden="true"></i>
+									<h3 class="title">Branding</h3>
+									<p class="title">WATCH ON VIDEO</p>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
 		</div>
 	</div>
 	<div class="we-wrapper">
-			<div class="we-wrap wrapper">
-				<div class="creative weare">
-					<div class="icon-wrap">
-						<img src="../img/free-icon-light-bulb-1257847 (1).png" alt="">
-					</div>
-					<div class="txt-wrap">
-						<p class="title">WE'RE CREATIVE</p>
-						<p class="bot">Day handsome addition horrible sensible goodness two contempt. Evening for
-							married summies imperia</p>
-					</div>
+		<div class="we-wrap wrapper">
+			<div class="creative weare">
+				<div class="icon-wrap">
+					<img src="../img/free-icon-light-bulb-1257847 (1).png" alt="">
 				</div>
-				<div class="eccentrics weare">
-					<div class="icon-wrap">
-						<img src="../img/necktie.png" alt="">
-					</div>
-					<div class="txt-wrap">
-						<p class="title">WE'RE ECCENTRICS</p>
-						<p class="bot">Day handsome addition horrible sensible goodness two contempt. Evening for
-							married summies imperia</p>
-					</div>
-				</div>
-				<div class="awarded weare">
-					<div class="icon-wrap">
-						<img src="../img/medal.png" alt="">
-					</div>
-					<div class="txt-wrap">
-						<p class="title">WE'RE AWARDED</p>
-						<p class="bot">Day handsome addition horrible sensible goodness two contempt. Evening for
-							married summies imperia</p>
-					</div>
+				<div class="txt-wrap">
+					<p class="title">WE'RE CREATIVE</p>
+					<p class="bot">Day handsome addition horrible sensible goodness two contempt. Evening for
+						married summies imperia</p>
 				</div>
 			</div>
+			<div class="eccentrics weare">
+				<div class="icon-wrap">
+					<img src="../img/necktie.png" alt="">
+				</div>
+				<div class="txt-wrap">
+					<p class="title">WE'RE ECCENTRICS</p>
+					<p class="bot">Day handsome addition horrible sensible goodness two contempt. Evening for
+						married summies imperia</p>
+				</div>
+			</div>
+			<div class="awarded weare">
+				<div class="icon-wrap">
+					<img src="../img/medal.png" alt="">
+				</div>
+				<div class="txt-wrap">
+					<p class="title">WE'RE AWARDED</p>
+					<p class="bot">Day handsome addition horrible sensible goodness two contempt. Evening for
+						married summies imperia</p>
+				</div>
+			</div>
+		</div>
 	</div>
-	
+
 	<div class="team-wrapper wrapper swiper-container">
 		<p class="title">THE CREW</p>
 		<h1 class="title">Team</h1>
@@ -378,16 +538,17 @@
 					</div>
 					<div class="txt-box">
 						<div class="txt">
-						<h3 class="title">Mike Rose</h3>
-						<p class="title">DESIGNER</p>
-						<p class="bot">Your team is important and we know it. With this element you can highlight the
-							crew.</p>
-						<div class="sns-box">
-							<i class="fa fa-whatsapp"></i>
-							<i class="fa fa-facebook"></i>
-							<i class="fa fa-twitter"></i>
+							<h3 class="title">Mike Rose</h3>
+							<p class="title">DESIGNER</p>
+							<p class="bot">Your team is important and we know it. With this element you can highlight
+								the
+								crew.</p>
+							<div class="sns-box">
+								<i class="fa fa-whatsapp"></i>
+								<i class="fa fa-facebook"></i>
+								<i class="fa fa-twitter"></i>
+							</div>
 						</div>
-					</div>
 					</div>
 				</div>
 			</li>
@@ -398,17 +559,18 @@
 					</div>
 					<div class="txt-box">
 						<div class="txt">
-						<h3 class="title">Guy Honshi</h3>
-						<p class="title">DESIGNER</p>
-						<p class="bot">Your team is important and we know it. With this element you can highlight the
-							crew.</p>
-						<div class="sns-box">
-							<i class="fa fa-facebook"></i>
-							<i class="fa fa-twitter"></i>
-							<i class="fa fa-instagram"></i>
-							<i class="fa fa-behance"></i>
+							<h3 class="title">Guy Honshi</h3>
+							<p class="title">DESIGNER</p>
+							<p class="bot">Your team is important and we know it. With this element you can highlight
+								the
+								crew.</p>
+							<div class="sns-box">
+								<i class="fa fa-facebook"></i>
+								<i class="fa fa-twitter"></i>
+								<i class="fa fa-instagram"></i>
+								<i class="fa fa-behance"></i>
+							</div>
 						</div>
-					</div>
 					</div>
 				</div>
 			</li>
@@ -419,17 +581,18 @@
 					</div>
 					<div class="txt-box">
 						<div class="txt">
-						<h3 class="title">Luke Sky</h3>
-						<p class="title">DESIGNER</p>
-						<p class="bot">Your team is important and we know it. With this element you can highlight the
-							crew.</p>
-						<div class="sns-box">
-							<i class="fa fa-facebook"></i>
-							<i class="fa fa-twitter"></i>
-							<i class="fa fa-instagram"></i>
-							<i class="fa fa-behance"></i>
+							<h3 class="title">Luke Sky</h3>
+							<p class="title">DESIGNER</p>
+							<p class="bot">Your team is important and we know it. With this element you can highlight
+								the
+								crew.</p>
+							<div class="sns-box">
+								<i class="fa fa-facebook"></i>
+								<i class="fa fa-twitter"></i>
+								<i class="fa fa-instagram"></i>
+								<i class="fa fa-behance"></i>
+							</div>
 						</div>
-					</div>
 					</div>
 				</div>
 			</li>
@@ -455,65 +618,180 @@
 				</div>
 			</li>
 		</ul>
+		<div class="swiper-pagination"></div>
 	</div>
-	<div class="swiper-pagination"></div>
 	<div class="review-wrapper">
 		<div class="review-wrap ">
 			<ul class="cnt wrapper">
-				<li>
-					<h1 class="title">696</h1>
+				<li class="wow bounceInUp fadeInUp">
+					<h1 class="title pro">400</h1>
 					<p class="title">PROJECTS COMPLETED</p>
-					<p class="bot">We had a opportunity to work on wide variety of projects for different clients around the world</p>
+					<p class="bot">We had a opportunity to work on wide variety of projects for different clients around
+						the world</p>
 				</li>
-				<li>
-					<h1 class="title">280</h1>
+				<li class="wow bounceInUp fadeInDown">
+					<h1 class="title sat">280</h1>
 					<p class="title">PROJECTS COMPLETED</p>
-					<p class="bot">We had a opportunity to work on wide variety of projects for different clients around the world</p>
+					<p class="bot">We had a opportunity to work on wide variety of projects for different clients around
+						the world</p>
 				</li>
-				<li>
-					<h1 class="title">14</h1>
+				<li class="wow bounceInUp fadeInUp">
+					<h1 class="title awards">14</h1>
 					<p class="title">PROJECTS COMPLETED</p>
-					<p class="bot">We had a opportunity to work on wide variety of projects for different clients around the world</p>
+					<p class="bot">We had a opportunity to work on wide variety of projects for different clients around
+						the world</p>
 				</li>
-				<li>
-					<h1 class="title">77</h1>
+				<li class="wow bounceInUp fadeInDown">
+					<h1 class="title emp">77</h1>
 					<p class="title">PROJECTS COMPLETED</p>
-					<p class="bot">We had a opportunity to work on wide variety of projects for different clients around the world</p>
+					<p class="bot">We had a opportunity to work on wide variety of projects for different clients around
+						the world</p>
 				</li>
 			</ul>
 			<div class="review-bg">
 				<div class="review-bg-wrap">
-					<img src="../img/bg-7.jpg" class="w-100" alt="">
 				</div>
 				<div class="review-title">
-				<p class="title">TESTIMONIALS</p>
-				<h1 class="title">Reviews</h1>
-			</div>
-				<ul class="txt">
-				<li>
-					<h2>“ The team at LeoneDesign done a really great job helping me to customize and implement new features on my page, thank you LeoneDesign!”</h2>
-					<h3>Sophie Robben</h3>
-					<p class="title">DESIGNER</p>
-				</li>
-				<li>
-					<h2>“ The team at LeoneDesign done a really great job helping me to customize and implement new features on my page, thank you LeoneDesign!”</h2>
-					<h3>Sophie Robben</h3>
-					<p class="title">DESIGNER</p>
-				</li>
-				<li>
-					<h2>“ The team at LeoneDesign done a really great job helping me to customize and implement new features on my page, thank you LeoneDesign!”</h2>
-					<h3>Sophie Robben</h3>
-					<p class="title">DESIGNER</p>
-				</li>
-				<li>
-					<h2>“ The team at LeoneDesign done a really great job helping me to customize and implement new features on my page, thank you LeoneDesign!”</h2>
-					<h3>Sophie Robben</h3>
-					<p class="title">DESIGNER</p>
-				</li>
-			</ul>
+					<p class="title">TESTIMONIALS</p>
+					<h1 class="title">Reviews</h1>
+				</div>
+				<div class="review swiper-container">
+					<ul class="txt swiper-wrapper">
+						<li class="swiper-slide">
+							<h2>“ The team at LeoneDesign done a really great job <br> helping me to customize and
+								implement
+								new
+								features <br> on my page, thank you LeoneDesign!”</h2>
+							<h3>Sophie Robben</h3>
+							<p class="title">DESIGNER</p>
+						</li>
+						<li class="swiper-slide">
+							<h2>“ Fast and versatile, Leone team executed each service <br> that we requested rapidly.
+								Very pleasant collective, <br> looking forward to collaborate with them.”</h2>
+							<h3>Lenny Potter</h3>
+							<p class="title">Manager</p>
+						</li>
+						<li class="swiper-slide">
+							<h2>“ The template is well done, good design and simple <br> code. LeoneDesign has
+								incredible support and they are <br> very friendly!”</h2>
+							<h3>Gabriel Jorge</h3>
+							<p class="title">Our Client</p>
+						</li>
+					</ul>
+					<div class="swiper-pagination"></div>
+				</div>
 			</div>
 		</div>
 	</div>
+	<div class="social-wrapper">
+		<div class="wrapper">
+			<p class="title">READY TO COLLABORATE?</p>
+			<h1 class="title">Social</h1>
+			<ul class="social">
+				<li class="insta">
+					<i class="fa fa-instagram"></i>
+					<p class="title">INSTAGRAM</p>
+				</li>
+				<li class="face">
+					<i class="fa fa-facebook"></i>
+					<p class="title">FACEBOOK</p>
+				</li>
+				<li class="twitter">
+					<i class="fa fa-twitter"></i>
+					<p class="title">TWITTER</p>
+				</li>
+				<li class="video">
+					<i class="fa fa-vimeo"></i>
+					<p class="title">VIMEO</p>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="touch-wrapper wrapper">
+		<ul class="touch-wrap">
+			<h3 class="title">Get In Touch</h3>
+			<li class="touch-wrap">
+				<div class="i-wrap">
+					<i class="fa fa-map-marker" aria-hidden="true"></i>
+				</div>
+				<div class="txt-wrap">
+					<p class="title">OUR OFFICE</p>
+					<p class="bot">3 Byron Ave, Yonkers NY</p>
+				</div>
+			</li>
+			<li class="touch-wrap">
+				<div class="i-wrap">
+					<i class="fa fa-envelope-o" aria-hidden="true"></i>
+				</div>
+				<div class="txt-wrap">
+					<p class="title">EMAIL ADDRESS</p>
+					<p class="bot">support@forester.com</p>
+				</div>
+			</li>
+			<li class="touch-wrap">
+				<div class="i-wrap">
+					<i class="fa fa-phone" aria-hidden="true"></i>
+				</div>
+				<div class="txt-wrap">
+					<p class="title">GIVE US A CALL</p>
+					<p class="bot">(633) 926-316</p>
+				</div>
+			</li>
+		</ul>
+		<div class="txtbox-wrap">
+			<form>
+				<input type="text" placeholder="Name" required="" name="Name">
+				<input type="text" placeholder="Email" required="" name="Email">
+				<input type="text" placeholder="Subject" required="" name="Subject">
+				<input type="text" placeholder="Your Message" required="" name="Message">
+			</form>
+			<button class="bt bt-white">SEND MESSAGE</button>
+		</div>
+	</div>
+	<div id="map" style="width:100%;height:450px;"></div>
+
+	</div>
+	<div class="link-wrapper wrapper swiper-container">
+		<ul class="swiper-wrapper">
+			<li class="swiper-slide"><img src="../img/3.png" alt=""></li>
+			<li class="swiper-slide"><img src="../img/1.png" alt=""></li>
+			<li class="swiper-slide"><img src="../img/2.png" alt=""></li>
+			<li class="swiper-slide"><img src="../img/5.png" alt=""></li>
+			<li class="swiper-slide"><img src="../img/1.png" alt=""></li>
+			<li class="swiper-slide"><img src="../img/6.png" alt=""></li>
+			<li class="swiper-slide"><img src="../img/3.png" alt=""></li>
+			<li class="swiper-slide"><img src="../img/6.png" alt=""></li>
+		</ul>
+	</div>
+	<footer>
+		<div class="wrapper">
+			<div class="f-left">
+				<ul class="f-navi">
+					<li><a href="#">HOME</a></li>
+					<li><a href="#">SERVICES</a></li>
+					<li><a href="#">PORTFOLIO</a></li>
+					<li><a href="#">TEAM</a></li>
+					<li><a href="#">CONTACT</a></li>
+				</ul>
+				<ul class="f-tell">
+					<li><i class="fa fa-phone" aria-hidden="true"></i>(633) 926-316</li>
+					<li><i class="fa fa-envelope-o" aria-hidden="true"></i>info@saulsforester.com</li>
+					<li><i class="fa fa-home" aria-hidden="true"></i>3 Byron Ave, Yonkers NY</li>
+				</ul>
+			</div>
+			<div class="f-right">
+				<div class="logo">
+					<img src="../img/logo.png" alt="푸터로고">
+				</div>
+				<p class="bot">Copyright ⓒ 2019 The Forester. <br>
+					All right reserved. Privacy Policy
+				</p>
+				<a href="#">ninethem.com</a>
+			</div>
+		</div>
+	</footer>
+	<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=7a5e1abdcb21f27f6a52af0cadd42e8c">
+	</script>
 	<script src="../js/index.js"></script>
 </body>
 
